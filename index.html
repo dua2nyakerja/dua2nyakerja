@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>dua2nyakerja</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #F7F5F2;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 3rem 1.25rem 4rem;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .avatar {
+      width: 78px;
+      height: 78px;
+      border-radius: 50%;
+      background: #EDEAE4;
+      border: 1px solid #D9D5CE;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      color: #2C2B28;
+      margin-bottom: 1.1rem;
+      letter-spacing: -0.5px;
+    }
+
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: #1A1917;
+      letter-spacing: -0.4px;
+      margin-bottom: 0.35rem;
+      text-align: center;
+    }
+
+    .tagline {
+      font-size: 13px;
+      color: #8A8780;
+      font-weight: 300;
+      text-align: center;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+
+    .divider {
+      width: 28px;
+      height: 1px;
+      background: #D4D0C9;
+      margin-bottom: 1.75rem;
+    }
+
+    .section-label {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: #AAA89F;
+      margin-bottom: 0.85rem;
+      align-self: flex-start;
+      width: 100%;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 13px 16px;
+      border-radius: 14px;
+      border: 1px solid #E2DED8;
+      background: #FFFFFF;
+      cursor: pointer;
+      text-decoration: none;
+      transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease;
+      width: 100%;
+    }
+
+    .btn:hover {
+      border-color: #C4BFB9;
+      background: #FAFAF8;
+      transform: translateY(-1px);
+    }
+
+    .btn:active {
+      transform: translateY(0);
+    }
+
+    .icon-wrap {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .icon-ktbr { background: #FFF0E4; }
+    .icon-life  { background: #F0EAF8; }
+    .icon-ngikan{ background: #E6F4FB; }
+
+    .btn-text { flex: 1; }
+
+    .btn-title {
+      font-size: 14px;
+      font-weight: 500;
+      color: #1A1917;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .btn-sub {
+      font-size: 11.5px;
+      color: #AAA89F;
+      font-weight: 300;
+      display: block;
+    }
+
+    .arrow {
+      font-size: 15px;
+      color: #C8C4BC;
+    }
+
+    .footer {
+      margin-top: 2.5rem;
+      font-size: 11px;
+      color: #C0BDB5;
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #111110; }
+      .avatar { background: #222220; border-color: #333330; color: #E8E5DF; }
+      h1 { color: #F0EDE7; }
+      .tagline { color: #6A6864; }
+      .divider { background: #333330; }
+      .section-label { color: #555350; }
+      .btn { background: #1C1B19; border-color: #2E2D2A; }
+      .btn:hover { background: #242320; border-color: #403F3C; }
+      .btn-title { color: #E8E5DF; }
+      .btn-sub { color: #5A5856; }
+      .icon-ktbr { background: #2E1E0E; }
+      .icon-life  { background: #1E1228; }
+      .icon-ngikan{ background: #0E1E2A; }
+      .arrow { color: #444240; }
+      .footer { color: #3A3835; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="avatar">D2</div>
+    <h1>dua2nyakerja</h1>
+    <p class="tagline">
+      Content creator · FnB<br>
+      dari planning sampai publish — semua dikerjain sendiri.
+    </p>
+    <div class="divider"></div>
+
+    <p class="section-label">Brand yang aku garap</p>
+
+    <div class="links">
+      <a class="btn" href="https://www.instagram.com/kebabturkibabarafi/" target="_blank" rel="noopener">
+        <div class="icon-wrap icon-ktbr">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="7.5" width="18" height="3" rx="1.5" fill="#C85A00"/>
+            <rect x="3" y="11.5" width="18" height="3" rx="1.5" fill="#E87A30"/>
+            <rect x="5" y="15.5" width="14" height="2" rx="1" fill="#C85A00"/>
+            <rect x="5" y="5.5" width="14" height="2" rx="1" fill="#C85A00"/>
+          </svg>
+        </div>
+        <div class="btn-text">
+          <span class="btn-title">Kebab Turki Baba Rafi</span>
+          <span class="btn-sub">@kebabturkibabarafi</span>
+        </div>
+        <span class="arrow">↗</span>
+      </a>
+
+      <a class="btn" href="https://www.instagram.com/lifeatbabarafi/" target="_blank" rel="noopener">
+        <div class="icon-wrap icon-life">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="9.5" r="4" fill="#7C4DB8"/>
+            <path d="M5.5 20c0-3.59 2.91-6.5 6.5-6.5s6.5 2.91 6.5 6.5" stroke="#7C4DB8" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="btn-text">
+          <span class="btn-title">Life at Baba Rafi</span>
+          <span class="btn-sub">@lifeatbabarafi</span>
+        </div>
+        <span class="arrow">↗</span>
+      </a>
+
+      <a class="btn" href="https://www.instagram.com/ngikan.id/" target="_blank" rel="noopener">
+        <div class="icon-wrap icon-ngikan">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M3.5 12 C5.5 7.5, 10 5.5, 14.5 8.5 C17.5 10.5, 20.5 9.5, 21.5 12 C19.5 14.5, 16 15.5, 12.5 13 C9.5 10.5, 6.5 14, 3.5 12Z" fill="#1A7FAD"/>
+            <circle cx="18.5" cy="10.5" r="1.2" fill="#0D4F6E"/>
+          </svg>
+        </div>
+        <div class="btn-text">
+          <span class="btn-title">Ngikan</span>
+          <span class="btn-sub">@ngikan.id</span>
+        </div>
+        <span class="arrow">↗</span>
+      </a>
+    </div>
+
+    <p class="footer">made with intention, not just caffeine.</p>
+  </div>
+</body>
+</html>
